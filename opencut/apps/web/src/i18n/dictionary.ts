@@ -22,6 +22,19 @@ type DictionaryShape = {
                 cta: string;
                 secondaryCta: string;
                 badge: string;
+                typewriterPrefix: string;
+                typewriterPhrases: string[];
+        };
+        symbols: {
+                eyebrow: string;
+                title: string;
+                subtitle: string;
+                categories: {
+                        religious: string;
+                        "verse-marker": string;
+                        celestial: string;
+                        ornament: string;
+                };
         };
         features: {
                 eyebrow: string;
