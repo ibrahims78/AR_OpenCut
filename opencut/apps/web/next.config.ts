@@ -8,7 +8,6 @@ const nextConfig: NextConfig = {
 	},
 	reactStrictMode: true,
 	productionBrowserSourceMaps: true,
-	output: "standalone",
 	allowedDevOrigins: ["*.replit.dev", "*.repl.co", "*.riker.replit.dev", "6abaf93a-f41d-471a-92e6-2cadf777d176-00-4edad19i1ho.riker.replit.dev"],
 	images: {
 		remotePatterns: [
