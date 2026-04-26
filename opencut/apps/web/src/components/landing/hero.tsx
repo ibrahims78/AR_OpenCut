@@ -6,6 +6,7 @@ import Image from "next/image";
 import { Handlebars } from "./handlebars";
 import Link from "next/link";
 import { useLocale } from "@/i18n/provider";
+import { Typewriter } from "./typewriter";
 
 export function Hero() {
 	const { t, locale } = useLocale();
@@ -28,6 +29,14 @@ export function Hero() {
 
 				<p className="text-muted-foreground mx-auto mt-10 max-w-xl text-base font-light tracking-wide sm:text-xl">
 					{t.hero.subtitle}
+				</p>
+
+				<p className="text-muted-foreground/80 mx-auto mt-4 text-sm sm:text-base">
+					<span>{t.hero.typewriterPrefix}</span>{" "}
+					<Typewriter
+						phrases={t.hero.typewriterPhrases}
+						className="text-foreground font-semibold"
+					/>
 				</p>
 
 				<div className="mt-8 flex justify-center gap-8">
