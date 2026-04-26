@@ -1,153 +1,153 @@
 export type Locale = "en" | "ar";
 
 export const LOCALES: { code: Locale; label: string; nativeLabel: string }[] = [
-	{ code: "en", label: "English", nativeLabel: "English" },
-	{ code: "ar", label: "Arabic", nativeLabel: "العربية" },
+        { code: "en", label: "English", nativeLabel: "English" },
+        { code: "ar", label: "Arabic", nativeLabel: "العربية" },
 ];
 
 type DictionaryShape = {
-	header: {
-		roadmap: string;
-		contributors: string;
-		sponsors: string;
-		blog: string;
-		projects: string;
-		openMenu: string;
-		closeMenu: string;
-	};
-	hero: {
-		title: string;
-		titleAccent: string;
-		subtitle: string;
-		cta: string;
-		secondaryCta: string;
-		badge: string;
-		typewriterPrefix: string;
-		typewriterPhrases: string[];
-	};
-	symbols: {
-		eyebrow: string;
-		title: string;
-		subtitle: string;
-		categories: {
-			religious: string;
-			"verse-marker": string;
-			celestial: string;
-			ornament: string;
-		};
-	};
-	features: {
-		eyebrow: string;
-		title: string;
-		subtitle: string;
-		items: {
-			rtl: { title: string; description: string };
-			privacy: { title: string; description: string };
-			speed: { title: string; description: string };
-			templates: { title: string; description: string };
-			captions: { title: string; description: string };
-			openSource: { title: string; description: string };
-		};
-	};
-	comparison: {
-		eyebrow: string;
-		title: string;
-		subtitle: string;
-		us: string;
-		competitor: string;
-		rows: {
-			price: string;
-			priceUs: string;
-			priceThem: string;
-			rtl: string;
-			rtlUs: string;
-			rtlThem: string;
-			privacy: string;
-			privacyUs: string;
-			privacyThem: string;
-			watermark: string;
-			watermarkUs: string;
-			watermarkThem: string;
-			offline: string;
-			offlineUs: string;
-			offlineThem: string;
-			selfHost: string;
-			selfHostUs: string;
-			selfHostThem: string;
-		};
-	};
-	templates: {
-		eyebrow: string;
-		title: string;
-		subtitle: string;
-		cta: string;
-		categories: {
-			youtube: string;
-			reels: string;
-			ads: string;
-			religious: string;
-			occasions: string;
-			marketing: string;
-		};
-	};
-	testimonials: {
-		eyebrow: string;
-		title: string;
-		subtitle: string;
-	};
-	faq: {
-		eyebrow: string;
-		title: string;
-		subtitle: string;
-		items: { q: string; a: string }[];
-	};
-	pricing: {
-		eyebrow: string;
-		title: string;
-		subtitle: string;
-		tiers: {
-			community: {
-				name: string;
-				price: string;
-				description: string;
-				features: string[];
-				cta: string;
-			};
-			selfhost: {
-				name: string;
-				price: string;
-				description: string;
-				features: string[];
-				cta: string;
-			};
-		};
-	};
-	ctaFinal: {
-		title: string;
-		subtitle: string;
-		cta: string;
-		secondaryCta: string;
-	};
-	footer: {
-		tagline: string;
-		resources: string;
-		company: string;
-		roadmap: string;
-		changelog: string;
-		blog: string;
-		privacy: string;
-		terms: string;
-		contributors: string;
-		sponsors: string;
-		brand: string;
-		about: string;
-		rights: string;
-	};
-	locale: {
-		switcher: string;
-		english: string;
-		arabic: string;
-	};
+        header: {
+                roadmap: string;
+                contributors: string;
+                sponsors: string;
+                blog: string;
+                projects: string;
+                openMenu: string;
+                closeMenu: string;
+        };
+        hero: {
+                title: string;
+                titleAccent: string;
+                subtitle: string;
+                cta: string;
+                secondaryCta: string;
+                badge: string;
+                typewriterPrefix: string;
+                typewriterPhrases: string[];
+        };
+        symbols: {
+                eyebrow: string;
+                title: string;
+                subtitle: string;
+                categories: {
+                        religious: string;
+                        "verse-marker": string;
+                        celestial: string;
+                        ornament: string;
+                };
+        };
+        features: {
+                eyebrow: string;
+                title: string;
+                subtitle: string;
+                items: {
+                        rtl: { title: string; description: string };
+                        privacy: { title: string; description: string };
+                        speed: { title: string; description: string };
+                        templates: { title: string; description: string };
+                        captions: { title: string; description: string };
+                        openSource: { title: string; description: string };
+                };
+        };
+        comparison: {
+                eyebrow: string;
+                title: string;
+                subtitle: string;
+                us: string;
+                competitor: string;
+                rows: {
+                        price: string;
+                        priceUs: string;
+                        priceThem: string;
+                        rtl: string;
+                        rtlUs: string;
+                        rtlThem: string;
+                        privacy: string;
+                        privacyUs: string;
+                        privacyThem: string;
+                        watermark: string;
+                        watermarkUs: string;
+                        watermarkThem: string;
+                        offline: string;
+                        offlineUs: string;
+                        offlineThem: string;
+                        selfHost: string;
+                        selfHostUs: string;
+                        selfHostThem: string;
+                };
+        };
+        templates: {
+                eyebrow: string;
+                title: string;
+                subtitle: string;
+                cta: string;
+                categories: {
+                        youtube: string;
+                        reels: string;
+                        ads: string;
+                        religious: string;
+                        occasions: string;
+                        marketing: string;
+                };
+        };
+        testimonials: {
+                eyebrow: string;
+                title: string;
+                subtitle: string;
+        };
+        faq: {
+                eyebrow: string;
+                title: string;
+                subtitle: string;
+                items: { q: string; a: string }[];
+        };
+        pricing: {
+                eyebrow: string;
+                title: string;
+                subtitle: string;
+                tiers: {
+                        community: {
+                                name: string;
+                                price: string;
+                                description: string;
+                                features: string[];
+                                cta: string;
+                        };
+                        selfhost: {
+                                name: string;
+                                price: string;
+                                description: string;
+                                features: string[];
+                                cta: string;
+                        };
+                };
+        };
+        ctaFinal: {
+                title: string;
+                subtitle: string;
+                cta: string;
+                secondaryCta: string;
+        };
+        footer: {
+                tagline: string;
+                resources: string;
+                company: string;
+                roadmap: string;
+                changelog: string;
+                blog: string;
+                privacy: string;
+                terms: string;
+                contributors: string;
+                sponsors: string;
+                brand: string;
+                about: string;
+                rights: string;
+        };
+        locale: {
+                switcher: string;
+                english: string;
+                arabic: string;
+        };
 };
 
 export const dictionaries: Record<Locale, DictionaryShape> = {
@@ -171,25 +171,26 @@ export const dictionaries: Record<Locale, DictionaryShape> = {
                         badge: "Free • Open Source • Privacy-first",
                         typewriterPrefix: "Made for",
                         typewriterPhrases: [
-                        	"YouTube videos",
-                        	"Reels & TikToks",
-                        	"Wedding films",
-                        	"Quran recitations",
-                        	"Product ads",
-                        	"Tutorials",
+                                "YouTube videos",
+                                "Reels & TikToks",
+                                "Wedding films",
+                                "Quran recitations",
+                                "Product ads",
+                                "Tutorials",
                         ],
                 },
                 symbols: {
                         eyebrow: "Symbols & ornaments",
                         title: "Authentic Arabic & Islamic glyphs",
                         subtitle:
-                        	"A curated set of Unicode symbols you can drop into any title or lower-third — no extra fonts required.",
+                                "A curated set of Unicode symbols you can drop into any title or lower-third — no extra fonts required.",
                         categories: {
-                        	religious: "Religious",
-                        	"verse-marker": "Verse markers",
-                        	celestial: "Celestial",
-                        	ornament: "Ornaments",
+                                religious: "Religious",
+                                "verse-marker": "Verse markers",
+                                celestial: "Celestial",
+                                ornament: "Ornaments",
                         },
+                },
                 features: {
                         eyebrow: "Why OpenCut",
                         title: "Everything you need to create",
@@ -388,25 +389,26 @@ export const dictionaries: Record<Locale, DictionaryShape> = {
                         badge: "مجاني • مفتوح المصدر • يحترم خصوصيتك",
                         typewriterPrefix: "صُنع لـ",
                         typewriterPhrases: [
-                        	"فيديوهات اليوتيوب",
-                        	"الريلز والتيك توك",
-                        	"تصوير الأعراس",
-                        	"تلاوات القرآن",
-                        	"إعلانات المنتجات",
-                        	"الدروس التعليمية",
+                                "فيديوهات اليوتيوب",
+                                "الريلز والتيك توك",
+                                "تصوير الأعراس",
+                                "تلاوات القرآن",
+                                "إعلانات المنتجات",
+                                "الدروس التعليمية",
                         ],
                 },
                 symbols: {
                         eyebrow: "رموز وزخارف",
                         title: "حروف عربية وإسلامية أصيلة",
                         subtitle:
-                        	"مجموعة منتقاة من رموز يونيكود يمكنك إضافتها لأي عنوان أو شريط سفلي — بدون أي خطوط إضافية.",
+                                "مجموعة منتقاة من رموز يونيكود يمكنك إضافتها لأي عنوان أو شريط سفلي — بدون أي خطوط إضافية.",
                         categories: {
-                        	religious: "دينية",
-                        	"verse-marker": "علامات الآيات",
-                        	celestial: "سماوية",
-                        	ornament: "زخارف",
+                                religious: "دينية",
+                                "verse-marker": "علامات الآيات",
+                                celestial: "سماوية",
+                                ornament: "زخارف",
                         },
+                },
                 features: {
                         eyebrow: "لماذا OpenCut",
                         title: "كل ما تحتاجه لتصميم فيديو احترافي",
@@ -591,9 +593,9 @@ export type Dictionary = DictionaryShape;
 export const DEFAULT_LOCALE: Locale = "en";
 
 export function isLocale(value: string | undefined | null): value is Locale {
-	return value === "en" || value === "ar";
+        return value === "en" || value === "ar";
 }
 
 export function getDirection(locale: Locale): "ltr" | "rtl" {
-	return locale === "ar" ? "rtl" : "ltr";
+        return locale === "ar" ? "rtl" : "ltr";
 }
